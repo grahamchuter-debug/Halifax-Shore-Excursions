@@ -1,20 +1,11 @@
 {
   "$schema": "node_modules/wrangler/config-schema.json",
   "name": "halifax-shore-excursions",
+  "account_id": "5624f9e476ac1e2047374399a607ab62",
   "compatibility_date": "2026-06-25",
   "observability": { "enabled": true },
   "assets": {
     "directory": "out",
     "html_handling": "auto-trailing-slash"
-  },
-  "routes": [
-    {
-      "pattern": "halifaxshoreexcursions.com",
-      "custom_domain": true
-    },
-    {
-      "pattern": "www.halifaxshoreexcursions.com",
-      "custom_domain": true
-    }
-  ]
+  }
 }
