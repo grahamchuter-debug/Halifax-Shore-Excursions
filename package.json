@@ -8,7 +8,7 @@
     "start": "next start",
     "lint": "eslint",
     "qa:legacy-names": "node scripts/qa-legacy-names.mjs",
-    "deploy": "npm run build && wrangler deploy",
+    "deploy": "npm run build && wrangler deploy -c wrangler.jsonc",
     "pages:deploy": "npm run build && wrangler pages deploy out --project-name=halifax-shore-excursions"
   },
   "dependencies": {
