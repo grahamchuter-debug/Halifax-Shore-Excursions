@@ -5,7 +5,7 @@ if [[ ! -f node_modules/.bin/wrangler ]]; then npm install; fi
 echo "Building Halifax Shore Excursions..."
 npm run build
 echo "Deploying to Cloudflare..."
-npx wrangler deploy
+npx wrangler deploy -c wrangler.jsonc
 echo ""
 echo "Done. If halifaxshoreexcursions.com still shows 404:"
 echo "  Workers & Pages → halifax-shore-excursions → Settings → Domains"

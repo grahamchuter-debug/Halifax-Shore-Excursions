@@ -158,23 +158,23 @@ export default function PortGuidePage() {
           <GuideSection title="Best excursions from Halifax">
             <p>
               First-time visitors usually prioritise{" "}
-              <Link href="/peggys-cove-shore-excursion" className="text-blue-800 underline">
+              <Link href="/peggys-cove-shore-excursion/" className="text-blue-800 underline">
                 Peggy&apos;s Cove
               </Link>
               ,{" "}
-              <Link href="/titanic-halifax-shore-excursion" className="text-blue-800 underline">
+              <Link href="/titanic-halifax-shore-excursion/" className="text-blue-800 underline">
                 Titanic heritage
               </Link>
               , or a{" "}
-              <Link href="/halifax-city-tour" className="text-blue-800 underline">
+              <Link href="/halifax-city-tour/" className="text-blue-800 underline">
                 city highlights
               </Link>{" "}
               tour. Longer port days open{" "}
-              <Link href="/lunenburg-and-mahone-bay-tour" className="text-blue-800 underline">
+              <Link href="/lunenburg-and-mahone-bay-tour/" className="text-blue-800 underline">
                 Lunenburg
               </Link>
               . See our{" "}
-              <Link href="/best-halifax-shore-excursions" className="text-blue-800 underline">
+              <Link href="/best-halifax-shore-excursions/" className="text-blue-800 underline">
                 best excursions
               </Link>{" "}
               ranking for return-to-ship confidence by tour type.

@@ -98,11 +98,11 @@ export default function BestTimePage() {
           <GuideSection title="Matching season to excursions">
             <p>
               Coastal photography favours shoulder-season light and smaller crowds.{" "}
-              <Link href="/peggys-cove-shore-excursion" className="text-blue-800 underline">
+              <Link href="/peggys-cove-shore-excursion/" className="text-blue-800 underline">
                 Peggy&apos;s Cove
               </Link>{" "}
               suits any month with proper clothing.{" "}
-              <Link href="/maritime-museum-and-waterfront-tour" className="text-blue-800 underline">
+              <Link href="/maritime-museum-and-waterfront-tour/" className="text-blue-800 underline">
                 Museum-focused days
               </Link>{" "}
               shine when rain appears on the forecast.

@@ -73,17 +73,17 @@ export default function ThingsToDoPage() {
           <GuideSection title="Stay near the ship (4–5 hours)">
             <ul className="list-disc space-y-2 pl-5">
               <li>
-                <Link href="/maritime-museum-and-waterfront-tour" className="text-blue-800 underline">
+                <Link href="/maritime-museum-and-waterfront-tour/" className="text-blue-800 underline">
                   Maritime Museum &amp; waterfront boardwalk
                 </Link>
               </li>
               <li>
-                <Link href="/halifax-brewery-and-food-tour" className="text-blue-800 underline">
+                <Link href="/halifax-brewery-and-food-tour/" className="text-blue-800 underline">
                   Brewery and seafood tastings downtown
                 </Link>
               </li>
               <li>
-                <Link href="/halifax-city-tour" className="text-blue-800 underline">
+                <Link href="/halifax-city-tour/" className="text-blue-800 underline">
                   Citadel Hill and Public Gardens
                 </Link>
               </li>
@@ -93,17 +93,17 @@ export default function ThingsToDoPage() {
           <GuideSection title="Half-day adventures (5–7 hours)">
             <ul className="list-disc space-y-2 pl-5">
               <li>
-                <Link href="/peggys-cove-shore-excursion" className="text-blue-800 underline">
+                <Link href="/peggys-cove-shore-excursion/" className="text-blue-800 underline">
                   Peggy&apos;s Cove lighthouse and coastal village
                 </Link>
               </li>
               <li>
-                <Link href="/titanic-halifax-shore-excursion" className="text-blue-800 underline">
+                <Link href="/titanic-halifax-shore-excursion/" className="text-blue-800 underline">
                   Titanic cemetery and maritime museum
                 </Link>
               </li>
               <li>
-                <Link href="/halifax-coastal-scenery-tour" className="text-blue-800 underline">
+                <Link href="/halifax-coastal-scenery-tour/" className="text-blue-800 underline">
                   Coastal headlands and photography stops
                 </Link>
               </li>
@@ -113,7 +113,7 @@ export default function ThingsToDoPage() {
           <GuideSection title="Full-day commitments (8+ hours)">
             <ul className="list-disc space-y-2 pl-5">
               <li>
-                <Link href="/lunenburg-and-mahone-bay-tour" className="text-blue-800 underline">
+                <Link href="/lunenburg-and-mahone-bay-tour/" className="text-blue-800 underline">
                   UNESCO Lunenburg and Mahone Bay churches
                 </Link>
               </li>
@@ -125,7 +125,7 @@ export default function ThingsToDoPage() {
 
           <GuideSection title="Usually skip on standard port days">
             <p>
-              <Link href="/bay-of-fundy-from-halifax" className="text-blue-800 underline">
+              <Link href="/bay-of-fundy-from-halifax/" className="text-blue-800 underline">
                 Bay of Fundy
               </Link>{" "}
               from Halifax — driving time overwhelms typical cruise windows. See our

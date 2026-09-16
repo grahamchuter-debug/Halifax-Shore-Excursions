@@ -31,9 +31,9 @@ const faqs = [
 ];
 
 export const metadata: Metadata = pageMetadata({
-  title: "Halifax Cruise Ship Schedule",
+  title: "Halifax Cruise Ship Schedule — Season & Port-Day Planning",
   description:
-    "Halifax cruise ship schedule overview — Canada & New England season timing, typical port hours, and planning excursions around your call.",
+    "Halifax cruise ship schedule guidance for cruise passengers: Canada & New England season timing, typical port hours, and excursion planning. Editorial overview — not a live arrival board; verify times in your cruise line app.",
   path,
 });
 
@@ -43,7 +43,7 @@ export default function SchedulePage() {
       <JsonLd
         data={[
           webPageSchema({
-            title: "Halifax Cruise Ship Schedule",
+            title: "Halifax Cruise Ship Schedule — Season & Port-Day Planning",
             description: metadata.description as string,
             path,
           }),
@@ -62,9 +62,9 @@ export default function SchedulePage() {
           ]}
         />
         <PageHero
-          eyebrow="Season & timing"
+          eyebrow="Season & port-day planning"
           title="Halifax cruise ship schedule"
-          subtitle="When ships call at Halifax, how long they stay, and how to align shore excursions with your port window."
+          subtitle="Editorial guidance on when ships call at Halifax, typical hours ashore, and how to plan excursions — not a live ship-arrival board."
         />
 
         <div className="mt-10 space-y-10">
@@ -95,7 +95,7 @@ export default function SchedulePage() {
             </p>
             <p>
               Use our{" "}
-              <Link href="/cruise-planner" className="text-blue-800 underline">
+              <Link href="/cruise-planner/" className="text-blue-800 underline">
                 cruise planner
               </Link>{" "}
               once you know your hours ashore.

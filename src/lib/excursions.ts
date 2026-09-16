@@ -38,7 +38,7 @@ export type Excursion = {
 export const excursions: Excursion[] = [
   {
     slug: "peggys-cove-shore-excursion",
-    path: "/peggys-cove-shore-excursion",
+    path: "/peggys-cove-shore-excursion/",
     title: "Peggy's Cove Shore Excursion from Halifax",
     shortTitle: "Peggy's Cove",
     heroImage: "/images/peggys-cove-hero.png",
@@ -109,7 +109,7 @@ export const excursions: Excursion[] = [
   },
   {
     slug: "titanic-halifax-shore-excursion",
-    path: "/titanic-halifax-shore-excursion",
+    path: "/titanic-halifax-shore-excursion/",
     title: "Titanic History Shore Excursion in Halifax",
     shortTitle: "Titanic History",
     summary:
@@ -177,7 +177,7 @@ export const excursions: Excursion[] = [
   },
   {
     slug: "halifax-city-tour",
-    path: "/halifax-city-tour",
+    path: "/halifax-city-tour/",
     title: "Halifax City Highlights Shore Excursion",
     shortTitle: "City Highlights",
     heroImage: "/images/halifax-city-tour-hero.png",
@@ -248,7 +248,7 @@ export const excursions: Excursion[] = [
   },
   {
     slug: "lunenburg-and-mahone-bay-tour",
-    path: "/lunenburg-and-mahone-bay-tour",
+    path: "/lunenburg-and-mahone-bay-tour/",
     title: "Lunenburg & Mahone Bay Shore Excursion from Halifax",
     shortTitle: "Lunenburg & Mahone Bay",
     summary:
@@ -316,7 +316,7 @@ export const excursions: Excursion[] = [
   },
   {
     slug: "bay-of-fundy-from-halifax",
-    path: "/bay-of-fundy-from-halifax",
+    path: "/bay-of-fundy-from-halifax/",
     title: "Bay of Fundy Shore Excursion from Halifax",
     shortTitle: "Bay of Fundy",
     summary:
@@ -384,7 +384,7 @@ export const excursions: Excursion[] = [
   },
   {
     slug: "maritime-museum-and-waterfront-tour",
-    path: "/maritime-museum-and-waterfront-tour",
+    path: "/maritime-museum-and-waterfront-tour/",
     title: "Maritime Museum & Waterfront Shore Excursion",
     shortTitle: "Maritime Museum",
     summary:
@@ -452,7 +452,7 @@ export const excursions: Excursion[] = [
   },
   {
     slug: "halifax-brewery-and-food-tour",
-    path: "/halifax-brewery-and-food-tour",
+    path: "/halifax-brewery-and-food-tour/",
     title: "Halifax Brewery & Food Shore Excursion",
     shortTitle: "Brewery & Food",
     summary:
@@ -520,7 +520,7 @@ export const excursions: Excursion[] = [
   },
   {
     slug: "halifax-coastal-scenery-tour",
-    path: "/halifax-coastal-scenery-tour",
+    path: "/halifax-coastal-scenery-tour/",
     title: "Halifax Coastal Scenery Shore Excursion",
     shortTitle: "Coastal Scenery",
     summary:

@@ -11,7 +11,7 @@ import { pageMetadata } from "@/lib/site";
 const path = "/excursions";
 
 export const metadata: Metadata = pageMetadata({
-  title: "Halifax Shore Excursions",
+  title: "Browse Halifax Shore Excursions",
   description:
     "Browse Halifax shore excursions for cruise passengers — Peggy's Cove, Titanic tours, city highlights, Lunenburg, maritime museums, and coastal scenery.",
   path,
@@ -23,7 +23,7 @@ export default function ExcursionsPage() {
       <JsonLd
         data={[
           webPageSchema({
-            title: "Halifax Shore Excursions",
+            title: "Browse Halifax Shore Excursions",
             description: metadata.description as string,
             path,
           }),

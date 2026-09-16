@@ -1,3 +1,4 @@
+import { CONTACT_EMAIL } from "@/lib/site";
 import Link from "next/link";
 
 export default function NotFound() {
@@ -15,18 +16,25 @@ export default function NotFound() {
           Homepage
         </Link>
         <Link
-          href="/excursions"
+          href="/excursions/"
           className="rounded-full border border-slate-300 px-5 py-2.5 text-sm font-semibold"
         >
           Excursions
         </Link>
         <Link
-          href="/enquire"
+          href="/enquire/"
           className="rounded-full border border-slate-300 px-5 py-2.5 text-sm font-semibold"
         >
           Enquire
         </Link>
       </div>
+    
+      <p className="mt-10 text-sm text-slate-600">
+        Need help?{" "}
+        <a href={`mailto:${CONTACT_EMAIL}`} className="font-semibold text-blue-800 hover:underline">
+          {CONTACT_EMAIL}
+        </a>
+      </p>
     </div>
   );
 }

@@ -2,8 +2,8 @@ import Link from "next/link";
 
 export function NeedHelpCTA({ excursion }: { excursion?: string }) {
   const enquireHref = excursion
-    ? `/enquire?excursion=${encodeURIComponent(excursion)}`
-    : "/enquire";
+    ? `/enquire/?excursion=${encodeURIComponent(excursion)}`
+    : "/enquire/";
 
   return (
     <section className="rounded-xl bg-slate-900 px-6 py-8 text-white md:px-8">
@@ -20,7 +20,7 @@ export function NeedHelpCTA({ excursion }: { excursion?: string }) {
           Enquire now
         </Link>
         <Link
-          href="/cruise-planner"
+          href="/cruise-planner/"
           className="rounded-full border border-slate-600 px-5 py-2.5 text-sm font-semibold text-white hover:border-slate-400 transition-colors"
         >
           Use cruise planner

@@ -33,9 +33,9 @@ const faqs = [
 ];
 
 export const metadata: Metadata = pageMetadata({
-  title: "Best Halifax Shore Excursions",
+  title: "Best Halifax Shore Excursions for Cruise Passengers",
   description:
-    "The best Halifax shore excursions ranked for cruise passengers — Peggy's Cove, Titanic tours, city highlights, Lunenburg, and return-to-ship confidence.",
+    "Best Halifax shore excursions for cruise passengers, ranked by port time and return-to-ship confidence — Peggy's Cove, Titanic tours, city highlights, and Lunenburg.",
   path,
 });
 
@@ -50,7 +50,7 @@ export default function BestExcursionsPage() {
       <JsonLd
         data={[
           webPageSchema({
-            title: "Best Halifax Shore Excursions",
+            title: "Best Halifax Shore Excursions for Cruise Passengers",
             description: metadata.description as string,
             path,
           }),
@@ -117,33 +117,33 @@ export default function BestExcursionsPage() {
             <ul className="list-disc space-y-2 pl-5">
               <li>
                 <strong>4–5 hours:</strong>{" "}
-                <Link href="/maritime-museum-and-waterfront-tour" className="text-blue-800 underline">
+                <Link href="/maritime-museum-and-waterfront-tour/" className="text-blue-800 underline">
                   Maritime Museum &amp; waterfront
                 </Link>
                 ,{" "}
-                <Link href="/halifax-brewery-and-food-tour" className="text-blue-800 underline">
+                <Link href="/halifax-brewery-and-food-tour/" className="text-blue-800 underline">
                   brewery &amp; food
                 </Link>
               </li>
               <li>
                 <strong>6–7 hours:</strong>{" "}
-                <Link href="/peggys-cove-shore-excursion" className="text-blue-800 underline">
+                <Link href="/peggys-cove-shore-excursion/" className="text-blue-800 underline">
                   Peggy&apos;s Cove
                 </Link>
                 ,{" "}
-                <Link href="/titanic-halifax-shore-excursion" className="text-blue-800 underline">
+                <Link href="/titanic-halifax-shore-excursion/" className="text-blue-800 underline">
                   Titanic history
                 </Link>
               </li>
               <li>
                 <strong>8+ hours:</strong>{" "}
-                <Link href="/lunenburg-and-mahone-bay-tour" className="text-blue-800 underline">
+                <Link href="/lunenburg-and-mahone-bay-tour/" className="text-blue-800 underline">
                   Lunenburg &amp; Mahone Bay
                 </Link>
               </li>
               <li>
                 <strong>10+ hours only:</strong>{" "}
-                <Link href="/bay-of-fundy-from-halifax" className="text-blue-800 underline">
+                <Link href="/bay-of-fundy-from-halifax/" className="text-blue-800 underline">
                   Bay of Fundy
                 </Link>{" "}
                 — scrutinise timing carefully

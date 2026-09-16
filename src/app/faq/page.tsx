@@ -85,23 +85,23 @@ export default function FAQPage() {
           <GuideSection title="Quick links">
             <ul className="list-disc space-y-2 pl-5">
               <li>
-                <Link href="/halifax-cruise-port-guide" className="text-blue-800 underline">
+                <Link href="/halifax-cruise-port-guide/" className="text-blue-800 underline">
                   Halifax cruise port guide
                 </Link>
               </li>
               <li>
-                <Link href="/best-halifax-shore-excursions" className="text-blue-800 underline">
+                <Link href="/best-halifax-shore-excursions/" className="text-blue-800 underline">
                   Best shore excursions
                 </Link>
               </li>
               <li>
-                <Link href="/cruise-planner" className="text-blue-800 underline">
+                <Link href="/cruise-planner/" className="text-blue-800 underline">
                   Cruise planner
                 </Link>
               </li>
               <li>
-                <Link href="/enquire" className="text-blue-800 underline">
-                  Book or enquire
+                <Link href="/enquire/" className="text-blue-800 underline">
+                  Enquire about a tour
                 </Link>
               </li>
             </ul>

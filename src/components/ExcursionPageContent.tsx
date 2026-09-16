@@ -17,7 +17,7 @@ export function ExcursionPageContent({ excursion }: { excursion: Excursion }) {
       <Breadcrumbs
         items={[
           { name: "Home", href: "/" },
-          { name: "Excursions", href: "/excursions" },
+          { name: "Excursions", href: "/excursions/" },
           { name: excursion.shortTitle },
         ]}
       />
@@ -120,7 +120,7 @@ export function ExcursionPageContent({ excursion }: { excursion: Excursion }) {
             <p className="mt-2 text-slate-600">
               See our{" "}
               <Link
-                href="/halifax-cruise-port-guide"
+                href="/halifax-cruise-port-guide/"
                 className="text-blue-800 hover:underline"
               >
                 Halifax cruise port guide

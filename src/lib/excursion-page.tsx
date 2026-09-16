@@ -48,7 +48,7 @@ export function createExcursionPage(slug: string) {
             }),
             breadcrumbSchema([
               { name: "Home", href: "/" },
-              { name: "Excursions", href: "/excursions" },
+              { name: "Excursions", href: "/excursions/" },
               { name: data.shortTitle },
             ]),
             faqSchema(data.faqs),

@@ -6,7 +6,7 @@ import { excursions } from "@/lib/excursions";
 import { absoluteUrl, pageMetadata } from "@/lib/site";
 
 const heroAlt =
-  "Peggy's Point Lighthouse on granite rocks at Peggy's Cove, Nova Scotia — Halifax shore excursion";
+  "Aerial view of Halifax harbour with a cruise ship at the downtown waterfront";
 
 const homeMeta = pageMetadata({
   title: "Halifax Shore Excursions & Port Guide",
@@ -19,7 +19,7 @@ export const metadata: Metadata = {
   ...homeMeta,
   openGraph: {
     ...homeMeta.openGraph,
-    images: [{ url: absoluteUrl("/images/halifax-hero.png"), alt: heroAlt }],
+    images: [{ url: absoluteUrl("/images/halifax-city-tour-hero.png"), alt: heroAlt }],
   },
 };
 
@@ -49,13 +49,13 @@ export default function HomePage() {
               </p>
               <div className="mt-8 flex flex-wrap gap-4">
                 <Link
-                  href="/excursions"
+                  href="/excursions/"
                   className="rounded-full bg-amber-400 px-6 py-3 text-sm font-semibold text-slate-900 hover:bg-amber-300"
                 >
                   Browse excursions
                 </Link>
                 <Link
-                  href="/halifax-cruise-port-guide"
+                  href="/halifax-cruise-port-guide/"
                   className="rounded-full border border-slate-400 px-6 py-3 text-sm font-semibold hover:border-white"
                 >
                   Halifax port guide
@@ -66,7 +66,7 @@ export default function HomePage() {
 
           <div className="relative min-h-[18rem] sm:min-h-[22rem] lg:min-h-full lg:order-last">
             <Image
-              src="/images/halifax-hero.png"
+              src="/images/halifax-city-tour-hero.png"
               alt={heroAlt}
               fill
               priority
@@ -89,11 +89,11 @@ export default function HomePage() {
           <p className="mt-2 text-amber-950/80 leading-relaxed">
             Peggy&apos;s Cove fits most standard port days; Lunenburg needs longer
             calls; Bay of Fundy trips from Halifax are often too ambitious. Read our{" "}
-            <Link href="/best-halifax-shore-excursions" className="font-semibold underline">
+            <Link href="/best-halifax-shore-excursions/" className="font-semibold underline">
               best excursions guide
             </Link>{" "}
             and{" "}
-            <Link href="/cruise-planner" className="font-semibold underline">
+            <Link href="/cruise-planner/" className="font-semibold underline">
               cruise planner
             </Link>{" "}
             before you book.
@@ -104,7 +104,7 @@ export default function HomePage() {
       <section className="mx-auto max-w-6xl px-4 pb-12">
         <div className="flex items-end justify-between gap-4">
           <h2 className="text-2xl font-bold text-slate-900">Popular excursions</h2>
-          <Link href="/excursions" className="text-sm font-semibold text-blue-800">
+          <Link href="/excursions/" className="text-sm font-semibold text-blue-800">
             View all →
           </Link>
         </div>
@@ -121,32 +121,32 @@ export default function HomePage() {
           <div className="mt-6 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
             {[
               {
-                href: "/best-halifax-shore-excursions",
+                href: "/best-halifax-shore-excursions/",
                 label: "Best Halifax excursions",
                 desc: "Ranked by port time and return confidence",
               },
               {
-                href: "/peggys-cove-shore-excursion",
+                href: "/peggys-cove-shore-excursion/",
                 label: "Peggy's Cove guide",
                 desc: "Timing, crowds, and photography tips",
               },
               {
-                href: "/titanic-halifax-shore-excursion",
+                href: "/titanic-halifax-shore-excursion/",
                 label: "Titanic Halifax guide",
                 desc: "Cemetery, museum, and respectful visits",
               },
               {
-                href: "/things-to-do-in-halifax-from-a-cruise-ship",
+                href: "/things-to-do-in-halifax-from-a-cruise-ship/",
                 label: "Things to do",
                 desc: "Waterfront, food, and culture ashore",
               },
               {
-                href: "/halifax-vs-sydney-nova-scotia",
+                href: "/halifax-vs-sydney-nova-scotia/",
                 label: "Halifax vs Sydney NS",
                 desc: "Which Nova Scotia port suits your itinerary",
               },
               {
-                href: "/faq",
+                href: "/faq/",
                 label: "FAQ",
                 desc: "Port, timing, and booking answers",
               },
@@ -172,10 +172,10 @@ export default function HomePage() {
             excursions with realistic return timing.
           </p>
           <Link
-            href="/enquire"
+            href="/enquire/"
             className="mt-6 inline-block rounded-full bg-amber-400 px-6 py-3 text-sm font-semibold text-slate-900 hover:bg-amber-300"
           >
-            Send an enquiry
+            Ask about availability
           </Link>
         </div>
       </section>

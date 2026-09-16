@@ -84,15 +84,15 @@ export default function VsSydneyPage() {
             </p>
             <p>
               Best excursions:{" "}
-              <Link href="/peggys-cove-shore-excursion" className="text-blue-800 underline">
+              <Link href="/peggys-cove-shore-excursion/" className="text-blue-800 underline">
                 Peggy&apos;s Cove
               </Link>
               ,{" "}
-              <Link href="/titanic-halifax-shore-excursion" className="text-blue-800 underline">
+              <Link href="/titanic-halifax-shore-excursion/" className="text-blue-800 underline">
                 Titanic heritage
               </Link>
               ,{" "}
-              <Link href="/lunenburg-and-mahone-bay-tour" className="text-blue-800 underline">
+              <Link href="/lunenburg-and-mahone-bay-tour/" className="text-blue-800 underline">
                 Lunenburg
               </Link>
               .

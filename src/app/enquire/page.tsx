@@ -7,14 +7,14 @@ import { JsonLd } from "@/components/JsonLd";
 import { PageHero } from "@/components/PageHero";
 import { ReturnToShipBlock } from "@/components/ReturnToShipBlock";
 import { breadcrumbSchema, webPageSchema } from "@/lib/schema";
-import { pageMetadata } from "@/lib/site";
+import { CONTACT_EMAIL, pageMetadata } from "@/lib/site";
 
 const path = "/enquire";
 
 export const metadata: Metadata = pageMetadata({
-  title: "Book or Enquire — Halifax Shore Excursions",
+  title: "Enquire About Halifax Shore Excursions",
   description:
-    "Enquire about Halifax shore excursions — share your cruise ship, port hours, and interests. Enquiry-only, no online checkout.",
+    "Ask about Halifax shore excursion availability — email your cruise ship, port hours, and interests. Enquiry-only; no online checkout or instant booking.",
   path,
 });
 
@@ -24,7 +24,7 @@ export default function EnquirePage() {
       <JsonLd
         data={[
           webPageSchema({
-            title: "Enquire",
+            title: "Enquire About Halifax Shore Excursions",
             description: metadata.description as string,
             path,
           }),
@@ -35,9 +35,21 @@ export default function EnquirePage() {
         <Breadcrumbs items={[{ name: "Home", href: "/" }, { name: "Enquire" }]} />
         <PageHero
           eyebrow="Enquiry only"
-          title="Book or enquire"
-          subtitle="No prices displayed — share your Halifax port details and we will recommend excursions that fit your schedule."
+          title="Enquire about Halifax shore excursions"
+          subtitle="No online checkout — email us with your port details and we will reply with options that fit your schedule."
         />
+
+        <div className="mt-6 rounded-xl border border-slate-200 bg-white p-5 sm:p-6">
+          <p className="text-sm text-slate-700">
+            Prefer to email directly?{" "}
+            <a
+              href={`mailto:${CONTACT_EMAIL}?subject=${encodeURIComponent("Halifax shore excursion enquiry")}`}
+              className="font-semibold text-blue-800 hover:underline"
+            >
+              {CONTACT_EMAIL}
+            </a>
+          </p>
+        </div>
 
         <div className="mt-10 grid gap-10 lg:grid-cols-2">
           <div className="space-y-8">

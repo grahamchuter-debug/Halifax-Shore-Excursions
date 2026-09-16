@@ -26,7 +26,7 @@ export function Header() {
           ))}
         </nav>
         <Link
-          href="/enquire"
+          href="/enquire/"
           className="rounded-full bg-blue-800 px-4 py-2 text-sm font-semibold text-white hover:bg-blue-900 transition-colors"
         >
           Enquire
